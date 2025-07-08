@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Developer portfolio</title>
+    <!-- add google fonts open sans2 -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/portfolio.css">
+</head>
+<!-- add google fonts2 -->
+<body class="open-sans-normal">
+    <!-- add class=header in header for background photo 5-4;11 -->
+     <!-- add secondary bg5-5;3 -->
+    <header class="header secondary-bg">
+        <nav>
+            <!-- first -->
+             <!-- add class=nav-title 3 -->
+                            <!-- for style r use span4 -->
+                             <!-- for color apply class=text-primary in span5 -->
+            <h3 class="nav-title">Ma <span class="text-primary">r</span> y</h3>
+            <ul>
+                <!-- for adding color in a 5-3;3 -->
+                <li><a class="dark-2" href="">Portfolio</a></li>
+                <li><a class="dark-2" href="">Blog</a></li>
+                <li><a href=""><button class="btn-primary">Hire Me</button></a></li>
+            </ul>
+        </nav>
+        <!-- for styling banner parts -->
+         <!-- shortcut cmd for makng div type.banner and press enter 5-4;1 -->
+         <div class="banner">
+            <!-- there will be two parts in div text and image -->
+             <div class="banner-content">
+<!-- add the given text,u can use .h4 and press enter 5-4;3 -->
+ <!-- add banner class for creating gap5-4;5 -->
+  <!-- dark-2applied for banner banner-greetings 5-4;5 -->
+ <h4 class="banner-greetings dark-2">Hi,I am</h4>
+ <h1 class="banner-title">Mary Hardy</h1>
+ <!-- add a paragraph mentioning class,use cmd .banner-description for shortcut5-4;4 -->
+ <p class="banner-description">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo quia perferendis repellat repellendus ducimus corrupti facere, incidunt consequatur dolor atque deleniti hic. Recusandae consequuntur earum vel molestiae magnam eius debitis?
+ </p>
+ <!-- add button5-4;5 and mention button class as used past because they are same-->
+ <button class="btn-primary">Download CV</button>
+ <button class="btn-primary">Contact</button>
+ </div>
+ 
+             <!-- add img 5-4;2 -->
+              <!-- add class in image 5-4;6 -->
+              <img class="banner-profile" src="images/hardy.png" alt="">
+         </div>
+    </header>
+    <!-- main part creation5-5 -->
+     <main>
+        <!-- make a section for about5-5;1 -->
+         <!-- also add secondary-bg here5-5;3 -->
+         <section class="about secondary-bg">
+<!-- make an h35-5;1 -->
+ <h3 class="section-title">About Me</h3>
+ <!-- add a para from the direction5-5;2 -->
+ <p class="section-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, perferendis? Suscipit a, blanditiis animi illum autem quia quos impedit deleniti deserunt eaque repellendus velit sunt iste sit? Quaerat, beatae provident.</p>
+ <!-- for adding about items5-5;7 -->
+ <div class="about-items">
+ <!-- for adding items details5-5;8 -->
+  <!-- Shortcut for adding item details p>.about-item*4>p.item-title+p.item-description -->
+   <div class="about-item">
+    <p class="item-title">name
+    </p>
+    <p class="item-description">Mary hardy</p>
+   </div>
+   <div class="about-item">
+    <p class="item-title">Email</p>
+    <p class="item-description">abc@def</p>
+   </div>
+   <div class="about-item">
+    <p class="item-title">Date of Birth</p>
+    <p class="item-description">Dec16,1971</p>
+   </div>
+   <div class="about-item">
+    <p class="item-title">From</p>
+    <p class="item-description">Dhaka,Bangladesh</p>
+   </div>
+   </div>
+
+         </section>
+
+         <!-- What I do section start5-6;1 -->
+
+         <!-- create a section for skills shortcut cmd>section.skills -->
+          <section class="skills">
+            <!-- h3.section-title -->
+             <h3 class="section-title text-center">What I Do</h3>
+             <!-- p.section-description+enter and set the text as given5-6;2-->
+             <p class="section-description text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus fugit repudiandae quaerat id iure recusandae praesentium fugiat soluta deleniti voluptates. Laudantium error ratione voluptatum neque necessitatibus, quam unde quidem consequatur.</p>
+             
+             <!-- for similar styles like skills5-6;3 -->
+             <div class="skills-container">
+                
+                <!-- every skill will contain img&description5-6;4 -->
+             <!-- .skill*4>img+h4.skill-title+p.skill-description -->
+               <div class="skill">
+                <img src="images/icons/js.png" alt="">
+                <h4 class="skill-title">VanillaJavascript</h4>
+                <p class="skill-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error dicta fuga neque, dolores hic a, eius magni voluptatum, quod enim quibusdam assumenda consequuntur! Odio iste ad totam architecto, ipsam incidunt?</p>
+               </div>
+               <div class="skill">
+                <img src="images/icons/react.png" alt="">
+                <h4 class="skill-title">React</h4>
+                <p class="skill-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam sequi alias harum error, reiciendis tempora maiores culpa laborum magnam quo rerum, voluptate quidem obcaecati suscipit, fugit quos est maxime nam!</p>
+               </div>
+               <div class="skill">
+                <img src="images/icons/nodejs.png" alt="">
+                <h4 class="skill-title">Node.js</h4>
+                <p class="skill-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, optio possimus magnam fugit exercitationem nostrum explicabo vitae quasi eum vero, ullam aperiam voluptatibus quia nemo aliquid ipsa ipsum non molestiae!</p>
+               </div>
+               <div class="skill">
+                <img src="images/icons/mongo.png" alt="">
+                <h4 class="skill-title">MongoDB</h4>
+                <p class="skill-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores nulla quas praesentium ab dolores ullam eveniet. Voluptatum assumenda voluptate cupiditate quasi eaque atque eligendi aut, exercitationem optio, deleniti quo autem.</p>
+               </div>
+            </div>
+          </section>
+
+          <!-- section for resume statrts ,there are two parts in this section like columns5-7 -->
+
+<!-- short-cut cmd for generating two columns details format;.resume-column*2>h3.resume-column-title+.experience*3>h4.experience-title+h5.experience-sub-title+.experience-description.+enter -->
+
+          <section class="resume">
+            <h3 class="section-title text-center">A Summary of My Resume</h3>
+<div class="resume-container">
+    <div class="resume-column">
+        <!-- fill the data as directed5-7;1 -->
+        <h3 class="resume-column-title">My Education</h3>
+        <div class="experience">
+            <h4 class="experience-title">Master in Computer Engineering</h4>
+            <h5 class="experience-sub-title">Harvard University/2015-2017</h5>
+            <div class="experience-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, doloribus. Porro facere ab vel, corrupti distinctio sunt est amet quibusdam iusto perspiciatis minima nulla labore cumque aperiam voluptas excepturi dolor?</div>
+        </div>
+        <hr>
+        <div class="experience">
+            <h4 class="experience-title">Master in Computer Engineering</h4>
+            <h5 class="experience-sub-title">Harvard University/2015-2017</h5>
+            <div class="experience-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, doloribus. Porro facere ab vel, corrupti distinctio sunt est amet quibusdam iusto perspiciatis minima nulla labore cumque aperiam voluptas excepturi dolor?</div>
+        </div>
+        <hr>
+        <div class="experience">
+          <h4 class="experience-title">Master in Computer Engineering</h4>
+            <h5 class="experience-sub-title">Harvard University/2015-2017</h5>
+            <div class="experience-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, doloribus. Porro facere ab vel, corrupti distinctio sunt est amet quibusdam iusto perspiciatis minima nulla labore cumque aperiam voluptas excepturi dolor?</div>
+        </div>
+    </div>
+    <div class="resume-column">
+       <div class="resume-column-title">
+        <h4 class="experience-title">My Work Experience</h4>
+            <h5 class="experience-sub-title">Harvard University/2015-2017</h5>
+            <div class="experience-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, doloribus. Porro facere ab vel, corrupti distinctio sunt est amet quibusdam iusto perspiciatis minima nulla labore cumque aperiam voluptas excepturi dolor?</div>
+       </div>
+       <hr>
+        <div class="experience">
+         <h4 class="experience-title">Master in Computer Engineering</h4>
+            <h5 class="experience-sub-title">Harvard University/2015-2017</h5>
+            <div class="experience-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, doloribus. Porro facere ab vel, corrupti distinctio sunt est amet quibusdam iusto perspiciatis minima nulla labore cumque aperiam voluptas excepturi dolor?</div>
+        </div>
+        <hr>
+      <div>
+        <h4 class="experience-title">Master in Computer Engineering</h4>
+            <h5 class="experience-sub-title">Harvard University/2015-2017</h5>
+            <div class="experience-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, doloribus. Porro facere ab vel, corrupti distinctio sunt est amet quibusdam iusto perspiciatis minima nulla labore cumque aperiam voluptas excepturi dolor?</div>
+      </div>
+    
+    </div>
+</div>
+<!-- add a button outside div of resume as provided outside the resume5-7;2 -->
+ <div class="text-center resume-download-cv">
+ <button class="btn-primary">Dowbload CV</button></div>
+          </section>
+     </main>
+
+     <!-- footer starts here5-8; -->
+      <!-- apply secondary background in footer like header of past5-8;2 -->
+     <footer class="secondary-bg">
+        <div class="footer-column">
+        <h3 class="section-title">Let's Connect</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est magnam dolore similique? Dolor exercitationem, eligendi voluptatibus quos provident blanditiis rem, odit placeat ad aspernatur laborum expedita at inventore! Hic, inventore.</p>
+
+        <!-- create a div for setting icons with link5-8;3 -->
+<div>
+    <a href=""><img src="images/icons/facebook.png" alt=""></a>
+    <a href=""><img src="images/icons/insta.png" alt=""></a>
+    <a href=""><img src="images/icons/twitter.png" alt=""></a>
+</div>
+</div>
+        <!-- create two footer columns5-8;1 -->
+
+<div class="footer-column">
+    <h3 class="section-title">Let's Inbox Me</h3>
+    <form action="">
+        <!-- for form part5-8;4 -->
+         <input type="text" name="" id="" placeholder="Your name">
+         <input type="email" name="" id="" placeholder="Your Email">
+         <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+
+         <!-- add button class for styling like past5-8;10 -->
+         <input class="btn-primary" type="submit" value="submit">
+    </form>
+</div>
+     </footer>
+</body>
+</html>

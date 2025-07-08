@@ -1,48 +1,241 @@
 
-.open-sans-<uniquifier> {
+/* 5-2 set google fonts and set navbar and primar color code */
+/* add google fonts2 */
+
+.open-sans-normal {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
-  
   font-style: normal;
   font-variation-settings:
-    "wdth" 100;}
-    /* shared style */
-    .text-primary{
-color: orange;
-    }
-/* nav styles */
+    "wdth" 100;
+}
+/* first * nav styles1 */
 nav{
     display: flex;
- align-items: center;
- justify-content: space-between;
- margin: 50px 200px;
+    /* for alignment of marry and ul li mention class in their parent nav as align-items: center 5-3;5 note:nav contains two children named as mary and ul li */
+    align-items: center;
+    /* for increasing space between mary and ul li apply justify-content: space-between 5-3;6 */
+    justify-content: space-between;
+    /* add margin for gaps 5-3;7 */
+    margin: 50px 200px;
+    /* for applying button style see the used stle in button from figma and use as button class=.btn-primary5-3;8 */
+
 }
+/* for styling button 5-3 */
+.btn-primary{
+background-color: orange;
+font-weight: bold;
+font-size: 20px;
+color: rgb(233, 213, 213);
+/* for adding border in button 5-4;1 */
+border: none;
+padding: 18px 35px;
+border-radius: 5px;
+    }
+/* nav.title3 */
 .nav-title{
     font-weight: 800px;
     font-size: 45px;
 }
+/* for nav alignment 5-3;4 */
 nav ul{
     display: flex;
+    /* for vertical alignment 5-3;9 */
     align-items: center;
-    
 }
+
+/* for color apply span class=text-primary5 */
+.text-primary{
+    color: orange
+}
+/* for adding color in a(copy color code and paste and a class=nav-2 to a ) 5-3;3
+     banner .banner-greetings color also same 5-4;5 */
+.dark-2{
+        color: red;
+     }
+
+/* 5-3 navbar alignment and use of flex */
+/* 5-3;1 */
 nav ul li{
-    list-style: none;
-    margin: 50px;
+list-style: none;
+/* for gapping in nav alignment use margin 5-3;5 */
+margin: 50px;
 }
+/* 5-3;2 for removing text underline and adding font size*/
 nav li a{
     text-decoration: none;
     font-size: 20px;
 }
-.dark-2{
-    color: #474747;
+/* banner styles 5-4;5 copy from there as used */
+.banner-greetings{
+font-size: 45px;
+font-weight: 600;
 }
-.btn-primary{
-    background-color: #FD6E0A;
+/* 5-4;6 */
+.banner title{
     font-weight: bold;
-    color: white;
-    padding: 18px 35px;
+    font-size: 85px;
+}
+/* add class in image5-4;6 */
+.banner-profile{
+    width: 580px;
+}
+/* for aligning banner text&image5-4;7 */
+.banner{
+    display: flex;
+    /* apply justfy content space between for gaps 5-4;9 */
+justify-content: space-between;
+/* apply margin for gap 5-4;10 just left&rght */
+margin: o 35px 0 200px;
+}
+/* add banner max width5-4;8 */
+.banner-content{
+max-width: 580px;
+}
+/* header class for adding background photo 5-4;11 */
+.header{
+    /* ../for adding photo from upper folder 5-4;12 */
+    /* adding multiple pics like previous5-4;14 */
+    background-image: url(../images/developer.png),url(../images/header_bg.png);
+    /* for removing multiple pictures apply5-4;13 */
+    background-repeat: no-repeat;
+    /* for fixing background photo top bottom left right positionn problem 5-4;15 */
+    background-position: top left, bottom right;
+}
+
+/* 5-5;Use of flexbox for about info and main style */
+/* section5-5;1 see about style */
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+/* add section-description5-5;2 */
+.section-description{
+    font-size: 18px;
+    color: #757575;
+}
+/* for adding background color off about me5-5;3 */
+.secondary-bg{
+    color: blue;
+}
+/* about styles5-5;4 */
+.about{
+    border-radius: 10px;
+    /* add padding5-5;7 */
+    padding: 130px 150px;
+    /* align text5-5;8 */
+    text-align: center;
+    /* add margin top */
+    /* remove margin top5-6;10 */
+    /* margin-top: 130px; */
+
+    /* add margin top in main section5-6;11 */
+    margin-top: 130px;
+
+    /* add margin in bottom also5-6;12 */
+    margin-bottom: 130px;
+
+}
+/* main styles5-5;5 */
+.main{
+    max-width: 1140px;
+    /* overall margin o left right auto5-5;6 */
+    margin: 0 auto;
+}
+
+
+/* for item decoration5-5;9 */
+.item-description{
+    font-weight: 600;
+}
+/* .item-description parent is about-items5-5;10 */
+/* so apply .about-items for styles */
+.about-items{
+    /* for single line */
+display: flex;
+/* for giving space both sides apply like following */
+justify-content: space-around;
+
+}
+/* 5-6:technical skills,flex gap and how to apply flex */
+
+/* sklls section styles5-6;4 */
+.skills-container{
+    /* for inline5-6;5 */
+    display: flex;
+    /* for gap5-6;6*/
+    gap: 24px;
+}
+/* padding for skill 5-6;7 */
+.skill{
+    padding: 30px;
+    /* provide box shadow for every skill copying from the direction5-6;8 */
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 06);
+    /* add border radius5-6;9 */
     border-radius: 5px;
-    font size: 20px
-    ;
+}
+
+/* resume section styles 5-7; */
+
+
+.resume-container{
+/* for inline apply display flex7-7;1 */
+display: flex;
+/* for gapping5-7;2 */
+gap: 24px;
+}
+
+/* for experience description5-7;3 */
+.experience-description,.experience-sub-title{
+    color:#181818
+}
+/* for font size of experience-sub-title5-7;4 */
+.experience-sub-title{
+    font-size: 20px;
+    font-weight: 600;
+    /* reduce margin5-7;5; */
+    margin-bottom: 20px;
+}
+/* u can also add margin in hr of resume5-7;6 */
+.resume hr{
+    margin: 30px 5px;
+}
+
+/* for button styles5-7;3 */
+.resume-download-cv{
+    margin-top: 50px;
+}
+/* footer styles5-8 */
+footer{
+    /* add padding not margin5-8;1 */
+    padding: 130px 230px;
+    /* apply display flex5-8;2 */
+    display: flex;
+    /* add gap between the contents5-8;3*/
+    gap: 100px;
+
+}
+
+/* for balancing width5-8;4 */
+.footer-column{
+    width: 50%;
+}
+/* for styling footer input5-8;5 */
+/* style footer email&textarea5-8;10 */
+
+footer input[type="text"],footer input[type="email"],footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: yellow;
+    /* 5-8;6 */
+    display: block;
+    /* 5-8;7 */
+    width: 100%;
+    padding: 10px  20px;
+    /* for margin bottom between two things5-8;8 */
+    margin-bottom: 24px;
+    /* 5-8;9 */
+    border: none;
+
 }
